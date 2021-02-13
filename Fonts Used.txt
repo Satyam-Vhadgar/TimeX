@@ -1,0 +1,19 @@
+
+Nunito sans-Menu 
+font-family: 'Nunito Sans', sans-serif;
+
+/******************************************/
+Quicksand(Medium + Light) - Heading 
+
+font-family: 'Quicksand', sans-serif;
+
+
+
+/******************************************/
+Montserrat -paragraph
+font-family: 'Montserrat', sans-serif;
+
+/******************************************/
+Combine link
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans&family=Quicksand:wght@600&display=swap" rel="stylesheet">

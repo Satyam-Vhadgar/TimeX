@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background: #F5F5F7;
+} */
+:root{
+    --navFont:'Nunito Sans', sans-serif;     
+    --headingFont:'Quicksand', sans-serif;
+    --bgcolorNav:#0C0E1D;
+    --paraFont:'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--headingFont);
+}
+/* Navigation CSS*/
+.Navigation{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.navbar{
+    background: var(--bgcolorNav);
+}
+.nav-item{
+    padding-left: 20px;
+}
+.nav-link{
+    color: #fff;
+    font-family: var(--navFont);
+}
+.nav-link:hover{
+    color: #FF0A7F;
+}
+.active{
+    color: #FF0A7F;
+}
+/* hamburgar */
+.fa-bars{
+    color: #fff;
+    border: #fff;
+}
+.fa-bars:hover{
+    color: #FF0A7F;
+}
+/* search Bar */
+.searchcolor{
+    color: #fff;
+}
+.searchcolor:hover{
+    color: #FF0A7F;
+}
+/* Dropdown */
+.dropdown-item:hover, .dropdown-item:focus {
+    color: black;
+    background-color: #f8f9fa;
+  }
+.dropdown-menu{
+    min-width: 25rem;
+}
+.dropContent{
+    line-height: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    color: grey;
+}
+.details:hover{
+    color: #FF0A7F;
+}
+/* Navigation END */
+
+/* carousel section */
+.rupie-f{
+    font-family: var(--paraFont);
+    font-weight: 900;
+}
+.hero-d-bg{
+    background:#0C0B19;
+}
+.Hero-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.B-buy{
+    width: 60px;
+    color: #fff;
+    background: #FF0A7F;
+}
+.B-buy:hover{
+    background: #fff;
+}
+.L-more{
+    text-decoration: none;
+    color: #fff;
+}
+.L-more:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #fff;
+}
+
+/* carousel section END */
+
+/* Watch Series 4*/
+
+.head-color{
+    color: #FF0A7F;
+}
+.font-2{
+    font-family: var(--paraFont);
+}
+.b-add{
+    width: 140px;
+    color: #fff;
+    background: #FF0A7F;
+}
+/* Watch Series 4 END*/
+
+/* Watch Series SE*/
+.se-bg{
+    background: #F1F1EF;
+}
+.se-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Watch Series SE END*/
+
+/* Nike Section*/
+.nike-bg{
+    background: #FAFAFA;
+}
+.straps-buy{
+    color: #FF0A7F;
+}
+.straps-buy:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #FF0A7F;
+}
+
+/* Which  watch is right */
+
+.card{
+    border: none;
+}
+.B-buy-two{
+    width: 60px;
+    background: #FF0A7F;
+    color: #fff;
+    border-radius: 10px;
+}
+.B-buy-two a{
+    text-decoration: none;
+    color: #fff;
+}
+.B-buy-two:hover{
+    color: #fff;
+    background: black;
+}
+.c-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+.card-text{
+    color: #6E6E73;
+}
+.L-more-2 ,a{
+    color: black;
+    text-decoration: none;
+}
+.L-more-2:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #FF0A7F;
+}
+.L-more-2 a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #FF0A7F;
+}
+/* Which  watch is right END*/
+
+/* Footer Start */
+.f-color{
+    background: #F5F5F7;
+}
+.fa-box-open{
+    color: grey;
+    font-size: 25px;
+}
+.fa-dollar-sign{
+    color: grey;
+    font-size: 25px;
+}
+.fa-comments{
+    color: grey;
+    font-size: 25px;
+}
+.fa-user-friends{
+    color: grey;
+    font-size: 25px;
+}
+.lead-1{
+    color: #7E7E80;
+}
+.F-content  a{
+      color: black;
+}
+.F-content  a:hover{
+    color: #FF0A7F;
+}
+.L-more-3{
+    color: #FF0A7F;
+}
+.L-more-3:hover{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.Footer-bg{
+    background: #0C0E1D;
+}
+.F-line{
+    border: 5px dashed #FF0A7F;
+
+}
+.F-nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.F-nav ul li a{
+    color: #fff;
+    font-family: var(--navFont);
+
+}
+.F-nav ul li a:hover{
+
+    color: #FF0A7F;
+}
+.c-by{
+    color: #fff;
+}
+.c-by-name{
+    color: orange;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.c-by-name:hover{
+    cursor: pointer;
+    color:#FF0A7F;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+    
+}
+/* Footer End */
